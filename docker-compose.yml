@@ -15,7 +15,7 @@ services:
       - /home/vagrant/mysql/data:/var/lib/mysql
 
   spring_app:
-    image: bilelchakroun45/achat:latest
+    image: bilelchakroun45/achat:1.0
     container_name: achatspring
     restart: on-failure
     environment:
